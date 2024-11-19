@@ -3,15 +3,19 @@ require_once('inc/head-blog.php');
 require_once('inc/header.php');
 ?>
 
+<div class="banner-img">
+  <img src="<?= base_url() ?>assets/img/blog.png" alt="Banner Image" />
+</div>
+
 <!-- Section -->
-<div class="section py-5">
+<div class="section">
     <div class="container py-5">
         <div class="row">
             <!-- Main Blog Content -->
             <div class="col-md-8 mb-4">
                 <?php foreach ($d as $res) { ?>
                     <div class="post-content">
-                        <h2 class="display-4 text-primary"><?= $res['title']; ?></h2>
+                        <h2 style="font-size: 35px;" class="display-4 text-primary"><?= $res['title']; ?></h2>
                         <figure class="my-4">
                             <img src="<?= base_url(); ?>uploads/blog/<?= $res['imgPath']; ?>" class="img-fluid rounded"
                                 alt="<?= $res['title']; ?>">
@@ -25,9 +29,6 @@ require_once('inc/header.php');
             <div class="col-md-4">
                 <!-- Latest Posts Widget -->
                 <div class="aside-widget mb-4">
-                    <div class="section-title">
-                        <h2 class="title h3">Latest Posts</h2>
-                    </div>
                     <?php foreach ($latest as $res) { ?>
                         <div class="post-widget mb-3">
                             <a class="post-img" href="<?= base_url() . $res['slug']; ?>">
@@ -47,19 +48,11 @@ require_once('inc/header.php');
                         </div>
                     <?php } ?>
                 </div>
-
-                <!-- Advertisement Widget -->
-                <div class="aside-widget text-center mb-4">
-                    <a href="#">
-                        <img class="img-fluid" src="<?= base_url(); ?>assets/img/ad-1.jpg" alt="Advertisement">
-                    </a>
-                </div>
             </div>
         </div>
     </div>
 </div>
 
-</div>
 
 <?php
 require_once('inc/footer.php');

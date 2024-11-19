@@ -29,7 +29,7 @@
                 <a href="https://www.facebook.com/chikitsaclinics"
                     class="btn-center btn btn-light btn-square border rounded-circle nav-fill me-3"><i
                         class="btn-center fab fa-facebook-f"></i></a>
-                <a class="btn btn-light btn-square border rounded-circle nav-fill me-3" href="tel:91-99151 61048">
+                <a class="btn btn-light btn-square border rounded-circle nav-fill me-3" href="https://wa.me/919915161048">
                     <i class="btn-center fa-brands fa-whatsapp"></i></a>
                 <a href="https://www.instagram.com/chikitsaclinics/"
                     class="btn-center btn btn-light btn-square border rounded-circle nav-fill me-3"><i

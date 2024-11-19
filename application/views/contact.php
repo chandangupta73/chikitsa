@@ -2,6 +2,11 @@
 require_once('inc/head.php');
 require_once('inc/header.php');
 ?>
+
+<div class="banner-img">
+    <img src="<?= base_url() ?>assets/img/contact.png" alt="Banner Image" />
+</div>
+
 <!-- Contact Start -->
 <div class="container-fluid contact py-5">
 	<div class="container py-5">
@@ -127,6 +132,15 @@ require_once('inc/header.php');
 	</div>
 </div>
 <!-- Contact End -->
+
+
+<style>
+    .btn-primary:hover {
+        background-color: #4b3d74;
+        border-color: #4b3d74;
+    }
+</style>
+
 <?php
 require_once('inc/footer.php');
 ?>
