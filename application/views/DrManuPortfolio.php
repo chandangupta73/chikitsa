@@ -2,9 +2,11 @@
 require_once('inc/head.php');
 require_once('inc/header.php');
 ?>
-
+<!-- <div class="banner-img">
+    <img src="<?= base_url() ?>assets/img/blog.png" alt="Banner Image" />
+</div> -->
 <!-- About Start -->
-<div class="container-fluid about bg-light py-5">
+<div class="container-fluid about bg-light">
     <div class="container py-5">
         <div class="row g-5 mt-3 align-items-center">
             <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
@@ -335,6 +337,13 @@ require_once('inc/header.php');
     </div>
 </div>
 <!-- Feature End -->
+
+<style>
+    .btn-primary:hover {
+        background-color: #4b3d74;
+        border-color: #4b3d74;
+    }
+</style>
 
 <?php
 require_once('inc/footer.php');

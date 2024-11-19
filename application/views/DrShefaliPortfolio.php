@@ -2,9 +2,11 @@
 require_once('inc/head.php');
 require_once('inc/header.php');
 ?>
-
+<!-- <div class="banner-img">
+    <img src="<?= base_url() ?>assets/img/blog.png" alt="Banner Image" />
+</div> -->
 <!-- About Start -->
-<div class="container-fluid about bg-light py-5">
+<div class="container-fluid about bg-light pt-5 mt-5">
     <div class="container py-5">
         <div class="row g-5 align-items-center">
             <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
@@ -51,8 +53,6 @@ require_once('inc/header.php');
                             <i class="fa fa-check text-primary me-2"></i> Registration : Punjab Medical Council
                         </p>
                     </div>
-                    <a href="<?= site_url('DrShefaliPortfolio') ?>"
-                        class="btn btn-primary rounded-pill text-white py-3 px-5">Learn More</a>
                 </div>
             </div>
         </div>
@@ -326,7 +326,12 @@ require_once('inc/header.php');
 </div>
 <!-- Feature End -->
 
-
+<style>
+    .btn-primary:hover {
+        background-color: #4b3d74;
+        border-color: #4b3d74;
+    }
+</style>
 <?php
 require_once('inc/footer.php');
 ?>

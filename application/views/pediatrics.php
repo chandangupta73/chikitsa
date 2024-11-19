@@ -3,7 +3,9 @@ require_once('inc/head.php');
 require_once('inc/header.php');
 ?>
 
-
+<div class="banner-img">
+    <img src="<?= base_url() ?>assets/img/blog.png" alt="Banner Image" />
+</div>
 <!-- services Start -->
 <div class="container-fluid service py-5">
     <div class="container py-5">
@@ -251,7 +253,7 @@ require_once('inc/header.php');
                                 </select>
                             </div>
                             <div class="col-xl-6">
-                                <input type="date" class="form-control py-3 border-primary bg-transparent">
+                                <input type="date" class="form-control border-primary bg-transparent">
                             </div>
                             <div class="col-xl-6">
                                 <select class="form-select py-3 border-primary bg-transparent"
@@ -280,8 +282,36 @@ require_once('inc/header.php');
 
 
 <style>
-    .service .service-item:hover .service-content .service-content-inner h5{
-        color: #d90808;
+    .service .service-item:hover .service-content .service-content-inner h5 {
+        color: white;
+    }
+
+    .service .service-item .service-content::before {
+        width: 100%;
+        height: 8px;
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background: #4b3d74;
+        transition: 0.5s;
+        z-index: 3;
+    }
+
+    .service .service-item:hover .service-content::before {
+        background: #4b3d74;
+        height: 100%;
+    }
+
+    .btn-primary:hover {
+        background-color: #4b3d74;
+        border-color: #4b3d74;
+    }
+
+    .border-primary {
+        border-color: #4b3d74 !important;
     }
 </style>
 

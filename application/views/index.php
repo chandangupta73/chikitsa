@@ -301,7 +301,7 @@ require_once('inc/header.php');
                 </select>
               </div>
               <div class="col-xl-6">
-                <input type="date" class="form-control py-3 border-primary bg-transparent" />
+                <input type="date" class="form-control border-primary bg-transparent" />
               </div>
               <div class="col-xl-6">
                 <select class="form-select py-3 border-primary bg-transparent" aria-label="Default select example">
@@ -592,6 +592,23 @@ require_once('inc/header.php');
   </div>
 </div>
 <!-- Book Appointment End -->
+
+
+<style>
+  .btn-primary:hover {
+    background-color: #4b3d74;
+    border-color: #4b3d74;
+  }
+
+  .btn-primary:hover {
+    background-color: #4b3d74;
+    border-color: #4b3d74;
+  }
+
+  .border-primary {
+    border-color: #4b3d74 !important;
+  }
+</style>
 
 <?php
 require_once('inc/footer.php');

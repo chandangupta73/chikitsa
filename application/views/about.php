@@ -38,6 +38,8 @@ require_once('inc/header.php');
     background-color: #fff;
     border-radius: 10px;
     transition: 0.3s;
+    height: 240px;
+    overflow: hidden;
   }
 
   .doctor-card:hover .card-body {
@@ -87,13 +89,10 @@ require_once('inc/header.php');
 </style>
 
 
-
+<div class="banner-img">
+  <img src="<?= base_url() ?>assets/img/about-us.png" alt="Banner Image" />
+</div>
 <div class="container py-5">
-  <div class="section-title">
-    <h1>About Us</h1>
-    <p>Nurturing Mothers and Children Together</p>
-  </div>
-
   <div class="row">
     <div class="col-md-12">
       <p>At Chikitsa - A Complete Mother & Child Care Clinic, we are dedicated to providing exceptional healthcare for
@@ -119,7 +118,7 @@ require_once('inc/header.php');
 
 
       <div class="row text-center d-flex justify-content-center pt-5">
-        <h3 class="mb-5" >OUR DOCTORS</h3>
+        <h3 class="mb-5">OUR DOCTORS</h3>
         <div class="col-md-6 col-lg-4 text-center">
           <div class="card doctor-card">
             <img src="<?= base_url() ?>assets/img/manusharma.webp" alt="Dr. Manu Sharma"
@@ -167,7 +166,7 @@ require_once('inc/header.php');
     </div>
     <div class="row g-4 justify-content-center">
       <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="row-cols-1 feature-item p-4">
+        <div class="row-cols-1 feature-item p-4" style="height: 341px;" >
           <div class="col-12">
             <div class="feature-icon mb-4">
               <div class="p-3 d-inline-flex bg-white rounded">
@@ -182,7 +181,7 @@ require_once('inc/header.php');
         </div>
       </div>
       <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-        <div class="row-cols-1 feature-item p-4">
+        <div class="row-cols-1 feature-item p-4" style="height: 341px;" >
           <div class="col-12">
             <div class="feature-icon mb-4">
               <div class="p-3 d-inline-flex bg-white rounded">
@@ -198,7 +197,7 @@ require_once('inc/header.php');
         </div>
       </div>
       <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-        <div class="row-cols-1 feature-item p-4">
+        <div class="row-cols-1 feature-item p-4" style="height: 341px;" >
           <div class="col-12">
             <div class="feature-icon mb-4">
               <div class="p-3 d-inline-flex bg-white rounded">
@@ -213,7 +212,7 @@ require_once('inc/header.php');
         </div>
       </div>
       <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-        <div class="row-cols-1 feature-item p-4">
+        <div class="row-cols-1 feature-item p-4" style="height: 341px;" >
           <div class="col-12">
             <div class="feature-icon mb-4">
               <div class="p-3 d-inline-flex bg-white rounded">
@@ -229,7 +228,7 @@ require_once('inc/header.php');
         </div>
       </div>
       <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="row-cols-1 feature-item p-4">
+        <div class="row-cols-1 feature-item p-4" style="height: 341px;" >
           <div class="col-12">
             <div class="feature-icon mb-4">
               <div class="p-3 d-inline-flex bg-white rounded">
@@ -244,7 +243,7 @@ require_once('inc/header.php');
         </div>
       </div>
       <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-        <div class="row-cols-1 feature-item p-4">
+        <div class="row-cols-1 feature-item p-4" style="height: 341px;" >
           <div class="col-12">
             <div class="feature-icon mb-4">
               <div class="p-3 d-inline-flex bg-white rounded">
@@ -259,7 +258,7 @@ require_once('inc/header.php');
         </div>
       </div>
       <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-        <div class="row-cols-1 feature-item p-4">
+        <div class="row-cols-1 feature-item p-4" style="height: 341px;" >
           <div class="col-12">
             <div class="feature-icon mb-4">
               <div class="p-3 d-inline-flex bg-white rounded">
@@ -274,7 +273,7 @@ require_once('inc/header.php');
         </div>
       </div>
       <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-        <div class="row-cols-1 feature-item p-4">
+        <div class="row-cols-1 feature-item p-4" style="height: 341px;" >
           <div class="col-12">
             <div class="feature-icon mb-4">
               <div class="p-3 d-inline-flex bg-white rounded">
@@ -292,6 +291,8 @@ require_once('inc/header.php');
   </div>
 </div>
 <!-- Feature End -->
+
+
 
 <?php
 require_once('inc/footer.php');
