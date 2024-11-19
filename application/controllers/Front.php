@@ -6,20 +6,12 @@ class Front extends CI_Controller
 
 	public function index()
 	{
-		// Fetch the latest 9 popular blogs
-		$data['popular'] = $this->Main_model->fetch_data_by_limit('post_blog', ['status' => 0], 'id DESC', 0, 9);
+		// $data['popular'] = $this->Main_model->fetch_data_by_limit('post_blog', ['status' => 0], 'id DESC', 0, 9);
 
-		// Fetch the latest 4 blogs
 		$data['latest'] = $this->Main_model->fetch_data_by_limit('post_blog', ['status' => 0], 'id DESC', 0, 4);
 
-		// Fetch some other data (e.g., 3 blogs)
 		$data['d'] = $this->Main_model->fetch_data_by_limit('post_blog', ['status' => 0], '', 0, 3);
 
-		// Optionally fetch more data, for example, a limited set of products if applicable
-		// If 'get_product' is meant for some product data, you can adjust this
-		$data['d1'] = $this->Main_model->get_product(5, 0, false); // Example limit of 5 products
-
-		// Load the view with the data
 		$this->load->view('index', $data);
 	}
 	// {
