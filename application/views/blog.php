@@ -32,7 +32,7 @@ require_once("inc/header.php");
                                             href="<?= base_url() . $res['slug']; ?>"><?= $res['name']; ?></a></li>
                                     <li><?= $res['date']; ?></li>
                                 </ul>
-                                <p><?= substr($res['msg'], 0, 145); ?>...</p>
+                                <p><?= substr($res['msg'], 0, 350); ?> ...</p>
                             </div>
                         </div>
                     <?php } ?>

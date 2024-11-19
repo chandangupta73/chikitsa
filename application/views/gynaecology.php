@@ -3,7 +3,7 @@ require_once('inc/head.php');
 require_once('inc/header.php');
 ?>
 <div class="banner-img">
-  <img src="<?= base_url() ?>assets/img/blog.png" alt="Banner Image" />
+  <img src="<?= base_url() ?>assets/img/gynologtics.png" alt="Banner Image" />
 </div>
 <!-- services Start -->
 <div class="container-fluid service py-5">

@@ -3,9 +3,9 @@ require_once('inc/head.php');
 require_once('inc/header.php');
 ?>
 
-<!-- <div class="banner-img">
+<div class="banner-img">
     <img src="<?= base_url() ?>assets/img/book-appointment.png" alt="Banner Image" />
-</div> -->
+</div>
 
 <!-- Book Appointment Start -->
 <div class="container-fluid appointment py-5 my-5">
